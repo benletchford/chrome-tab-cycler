@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Switcher",
+  "version": "0.2",
+
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "commands": {
+      "left" : {
+          "suggested_key": {
+               "default": "Alt+Shift+Left"
+          },
+          "description": "Switch to the tab left of the active tab."
+      },
+      "right": {
+          "suggested_key": {
+              "default": "Alt+Shift+Right"
+          },
+          "description": "Switch to the tab right of the active tab."
+      }
+  }
+}
