@@ -1,7 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Tab Switcher",
-  "version": "0.2",
+  "name": "Tab Cycler",
+  "version": "0.1",
+
+  "icons": {
+    "128": "icon.png"
+  },
 
   "permissions": [
     "tabs",
@@ -17,13 +21,13 @@
           "suggested_key": {
                "default": "Alt+Shift+Left"
           },
-          "description": "Switch to the tab left of the active tab."
+          "description": "Cycle to left tab."
       },
       "right": {
           "suggested_key": {
               "default": "Alt+Shift+Right"
           },
-          "description": "Switch to the tab right of the active tab."
+          "description": "Cycle to right tab."
       }
   }
 }
