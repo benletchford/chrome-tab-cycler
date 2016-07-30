@@ -1,0 +1,10 @@
+Simple extension that allows you to customize the key-shortcuts for cycling left and right between tabs.
+
+Defaults:
+
+Alt-Shift-Left Arrow -> Cycle tab left.
+Alt-Shift-Right Arrow -> Cycle tab right.
+
+To customize shortcuts: Settings -> Extensions -> Keyboard shortcuts (bottom of page)
+
+Code hosted at: https://github.com/benletchford/chrome-tab-switcher
