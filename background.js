@@ -1,5 +1,5 @@
 chrome.commands.onCommand.addListener(function (command) {
-  chrome.tabs.query({}, function(tabs) {
+  chrome.tabs.query({currentWindow: true}, function(tabs) {
     var activeIndex = -1;
     for (var i=0;i<tabs.length;i++) {
       if (tabs[i].active) {
